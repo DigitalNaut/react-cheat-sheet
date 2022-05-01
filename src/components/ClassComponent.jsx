@@ -21,14 +21,14 @@ export default class MiComponenteClase extends Component {
     console.log("Componente Clase capturó un error");
   }
 
-  componerNombre(nombre = "???") {
+  componerMensaje(nombre = "???") {
     return `Este es mi ${nombre} renderizado con sus props y children`;
   }
 
   render() {
     return (
       <div className={styles.container}>
-        {this.componerNombre(this.props.nombre)}
+        {this.componerMensaje(this.props.nombre)}
         {this.props.children}
       </div>
     );

@@ -13,7 +13,7 @@
   </a>
   &nbsp;
   <a href="https://www.britishcouncil.org.mx" target="_blank">
-    <img src="https://www.britishcouncil.org.mx/profiles/solas2/themes/solas_ui/favicon.ico" title="Hackademy" alt="Hackademy" width="32px" height="32px" />
+    <img src="https://www.britishcouncil.org.mx/profiles/solas2/themes/solas_ui/apple-touch-icons/touch-icon-iphone.png" title="British Council" alt="British Council" width="32px" height="32px" />
   </a>
 </div>
 

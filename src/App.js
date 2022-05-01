@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import { ReactComponent as HackademyLogo } from "./assets/logo.svg";
+
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>React Cheat Sheet</h1>
+      <p>
+        Snippets de código para los diferentes aspectos de la librería de React
+      </p>
+      <HackademyLogo width={64} height={64} />
     </div>
   );
 }
